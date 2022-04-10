@@ -1,14 +1,14 @@
 package linkedlist;
 
 public abstract class LinkedList<T> {
-	
+	// the class is an abstract class so we can't create objects from it 
 	int length=0 ;
 	Node<T> head = null;
-	// the adding is different between the stack and the queue but we must have an adding method 
+	// the adding is different between the stack and the queue but we must have a method for it 
 	public abstract void add(T val);
 	//
 	
-	// the queue and the stack 
+	// the common methods 
 	public void clear () {
 		Node temp =head ;
 		Node holder ;
