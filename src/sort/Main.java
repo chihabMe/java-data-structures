@@ -7,7 +7,8 @@ public class Main {
 		int list[] = new int[100];
 		helpersMethods.fillWithRandom(list);
 		helpersMethods.printTheList(list);
-		BubbleSort.RecSort(list);
+		//BubbleSort.RecSort(list);
+		mergeSort.sort(list);
 		helpersMethods.printTheList(list);
 
 	}
