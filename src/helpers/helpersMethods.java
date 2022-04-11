@@ -6,7 +6,7 @@ public class helpersMethods {
 	
 	public static void fillWithRandom(int array[]) {
 		for(int i =0 ; i<array.length;i++) {
-			array[i] = rn.nextInt(10);
+			array[i] = rn.nextInt(100);
 		}
 	}
 	
@@ -17,6 +17,7 @@ public class helpersMethods {
 	}
 	
 	public static  void printTheList(int array[]) {
+		System.out.println();
 		System.out.print("[ ");
 		for(int i =0 ; i<array.length;i++) {
 			System.out.print(array[i] +" ");

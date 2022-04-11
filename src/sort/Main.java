@@ -1,9 +1,14 @@
 package sort;
+import helpers.helpersMethods;
 
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		int list[] = new int[100];
+		helpersMethods.fillWithRandom(list);
+		helpersMethods.printTheList(list);
+		BubbleSort.sort(list);
+		helpersMethods.printTheList(list);
 
 	}
 
